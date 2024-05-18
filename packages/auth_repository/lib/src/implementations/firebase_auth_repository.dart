@@ -17,6 +17,8 @@ class FirebaseAuthRepository extends BaseAuthRepository{
 
   @override
   Future<UserCredential> login(String username, String password) async {
+
     return _firebaseAuth.signInWithEmailAndPassword(email: username, password: password);
+
   }
 }

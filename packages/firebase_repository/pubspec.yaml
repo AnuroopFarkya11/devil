@@ -8,8 +8,10 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  cloud_firestore: ^4.17.3
   flutter:
     sdk: flutter
+  logger: ^2.3.0
 
 dev_dependencies:
   flutter_test:
